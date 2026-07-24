@@ -1,13 +1,31 @@
 # NetSageAI
 
-AI-powered Network Configuration Analysis Platform.
+## Overview
+NetSageAI is an AI-powered network configuration analysis tool that parses Cisco device configurations, detects issues, generates recommendations, and visualizes network topology.
 
-## Planned Features
+## Features
 - Cisco configuration parser
-- Network topology generation
-- AI-powered troubleshooting
-- Graph reasoning
-- Retrieval-Augmented Generation (RAG)
-- MCP integration
+- AI-based network health analysis
+- Security recommendations
+- Topology generation
+- FastAPI backend
 
-Status: 🚧 Under Development
+## Tech Stack
+- Python
+- FastAPI
+- React
+- Git
+- GitHub
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+## Future Work
+- Interactive dashboard
+- AI chatbot
+- PDF report generation
+- Deployment
