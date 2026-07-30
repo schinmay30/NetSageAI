@@ -1,0 +1,56 @@
+.health-card{
+
+    background:rgba(255,255,255,.85);
+
+
+
+border:1px solid rgba(255,255,255,.3);
+    border-radius:18px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.circle{
+
+    width:180px;
+
+    height:180px;
+
+    margin:25px auto;
+
+    border-radius:50%;
+
+    border:12px solid #2563eb;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#eff6ff;
+
+}
+
+.circle h1{
+
+    color:#2563eb;
+
+    font-size:48px;
+
+    margin:0;
+
+}
+
+.health-card h3{
+
+    color:#16a34a;
+
+    font-size:22px;
+
+}

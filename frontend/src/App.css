@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+        135deg,
+        #eff6ff,
+        #dbeafe,
+        #f8fafc
+    );
+    background-attachment: fixed;
+    font-family: "Inter", sans-serif;
+    color: #0f172a;
+}
+
+.app {
+    min-height: 100vh;
+}
+
+button {
+    background: linear-gradient(90deg, #2563eb, #06b6d4);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.35s ease;
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.25);
+}
+
+button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 35px rgba(37, 99, 235, 0.35);
+}
+
+section {
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2563eb;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e2e8f0;
+}
+
+@media (max-width: 900px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 25px;
+    }
+
+    .hero-left {
+        width: 100%;
+    }
+
+    .hero-right {
+        margin-top: 50px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .upload-card {
+        width: 100%;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+}
